@@ -513,23 +513,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.w-3 {
-  width: 0.75rem;
-}
-
-.w-4 {
-  width: 1rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.underline {
-  text-decoration-line: underline;
+.font-Poppins {
+  font-family: Poppins, sans-serif;
 }
