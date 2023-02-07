@@ -24,21 +24,62 @@
     <link rel="stylesheet" href="./tailwind.css" />
   </head>
   <body class="">
-    Reliable, efficient delivery Powered by Technology Our Artificial
-    Intelligence powered tools use millions of project data points to ensure
-    that your project is successful Supervisor Monitors activity to identify
-    project roadblocks Team Builder Scans our talent network to create the
-    optimal team for your project Karma Regularly evaluates our talent to ensure
-    quality Calculator Uses data from past projects to provide better delivery
-    estimates
+    <main class="w-full max-w-sm p-4 md:max-w-none">
+      <section class="pt-12 text-center font-Poppins">
+        <h1 class="text-2xl font-normal text-Grayish-blue">
+          Reliable, efficient delivery <br />
+        </h1>
+        <span class="text-2xl font-bold"><b>Powered by Technology</b></span>
+        <p class="pt-4 text-Grayish-blue">
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
+      </section>
+      <!-- Blocks sections-->
+      <section
+        class="grid w-full grid-cols-1 items-center justify-items-center gap-y-8 pt-16 font-Poppins md:grid-cols-3 md:gap-x-6"
+      >
+        <div class="card border-t-cyan">
+          <p class="pt-2 text-xl font-bold">Supervisor</p>
+          <p class="pt-2 text-Grayish-blue">
+            Monitors activity to identify project roadblocks
+          </p>
+          <div class="flex justify-end py-4 pt-6 pr-3">
+            <img src="/images/icon-supervisor.svg" alt="" />
+          </div>
+        </div>
 
-    <footer>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
-      </p>
-    </footer>
+        <div class="space-y-10 md:relative md:space-y-20">
+          <div class="card border-t-Red">
+            <p class="pt-2 text-xl font-bold">Team Builder</p>
+            <p class="pt-2 text-Grayish-blue">
+              Scans our talent network to create the optimal team for your
+              project
+            </p>
+            <div class="flex justify-end py-4 pt-6 pr-3">
+              <img src="/images/icon-team-builder.svg" alt="" />
+            </div>
+          </div>
+          <div class="card border-t-orange">
+            <p class="pt-2 text-xl font-bold">Karma</p>
+            <p class="pt-2 text-Grayish-blue">
+              Regularly evaluates our talent to ensure quality
+            </p>
+            <div class="flex justify-end py-4 pt-6 pr-3">
+              <img src="/images/icon-karma.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="card border-t-Blue">
+          <p class="pt-2 text-xl font-bold">Calculator</p>
+          <p class="pt-2 text-Grayish-blue">
+            Uses data from past projects to provide better delivery estimates
+          </p>
+          <div class="flex justify-end py-4 pt-6 pr-3">
+            <img src="/images/icon-calculator.svg" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

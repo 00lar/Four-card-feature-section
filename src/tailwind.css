@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card {
+  @apply h-64 max-w-xs border-t-4 p-6 shadow-2xl lg:max-w-sm lg:pl-4;
+}
